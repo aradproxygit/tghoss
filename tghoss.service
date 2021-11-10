@@ -12,7 +12,7 @@ Type=simple
 
 WorkingDirectory=/root/MTProxy/objs/bin
 
-ExecStart=/root/MTProxy/objs/bin/mtproto-proxy -u nobody --aes-pwd proxy-secret proxy-multi.conf -M 16 -p 6555 -H 443 -P 8994acfab72e80cff786789e5df17dfc -S dd000000000000000000000000000000
+ExecStart=/root/MTProxy/objs/bin/mtproto-proxy -u nobody --aes-pwd proxy-secret proxy-multi.conf -M 16 -p 6555 -H 443 -P 8994acfab72e80cff786789e5df17dfc -S 8b2394ad2ecef7e607d5f52b31a45768 -S 00000000000000000000000000000000 -S ee000000002e676f6f676c652e636f6d
 
 Restart=on-failure
 
